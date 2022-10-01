@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Dosis:wght@200;400&family=Inter+Tight:wght@100;200;300&family=Merriweather:wght@300;400&family=Montserrat:wght@100;200;300;400&family=Open+Sans:wght@300&family=Poppins:wght@200;300;400&family=Raleway:wght@100;200;300;400&family=Roboto&display=swap");
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #eee;
+  font-family: "Raleway", "open sans", sans-serif;
+}
+body #title {
+  text-align: center;
+  font-size: 3rem;
+}
+body #description {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+body #svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #svg-container svg {
+  background-color: #eee;
+}
+body #svg-container svg .county:hover {
+  fill: orange;
+}
+body #svg-container svg .state-borders {
+  stroke: #fff;
+  stroke-width: 0.6px;
+  fill: none;
+  pointer-events: none;
+}
+body #tooltip {
+  background-color: #d4b2f4;
+  color: black;
+  font-size: 0.9rem;
+  padding: 5px;
+}
+body #source {
+  font-size: 1.2rem;
+  text-align: right;
+  margin-right: 200px;
+}
+body #source a {
+  text-decoration: none;
+}
+body #attribution {
+  text-align: center;
+  font-size: 0.9rem;
+  background-color: #ddd;
+}/*# sourceMappingURL=style.css.map */
