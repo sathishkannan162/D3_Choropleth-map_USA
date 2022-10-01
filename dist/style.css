@@ -37,10 +37,11 @@ body #svg-container svg .state-borders {
   pointer-events: none;
 }
 body #tooltip {
-  background-color: #d4b2f4;
+  background-color: skyblue;
   color: black;
   font-size: 0.9rem;
   padding: 5px;
+  border-radius: 5px;
 }
 body #source {
   font-size: 1.2rem;
